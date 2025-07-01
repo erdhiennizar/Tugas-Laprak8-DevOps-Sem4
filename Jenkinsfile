@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/username/simple-php-ci.git'
+                git branch: 'main', url: 'https://github.com/erdhiennizar/Tugas-Laprak8-DevOps-Sem4.git'
+
             }
         }
         stage('Install Dependencies') {
